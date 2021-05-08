@@ -1,0 +1,13 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+plugins:
+  - jekyll-paginate
+
+paginate: 6 # pagination basted on number of posts
+exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
+baseurl: /
+url: htttp://neverfelly.github.io
+permalink: /:year/:month/:title.html
+author: Neverfelly
+authorurl: htttp://neverfelly.github.io
+name: Magic &#38; Realism
